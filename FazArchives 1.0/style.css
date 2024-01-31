@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2c2c2c;
+}
+
+header#main_menu {
+    background-color: #191919;
+    border-bottom: 1px solid #5c5c5c;
+    position: fixed;
+    width: 100vw;
+    height: 140px;
+}
+
+div#top-menu {
+    display: flex;
+    gap: 22%;
+}
+
+img#logopit {
+    margin: 5px;
+    width: 305px;
+    height: 85px;
+}
+
+
+
+ul#menu-list {
+    display: flex;
+    gap: 120px;
+    width: 50%;
+    padding: 10px 0px 0px 50px;
+}
+
+.menu-link {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+img#i_exist {
+    height: 140px;
+    margin-bottom: 25px;
+}
+
+div.bigbox_01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.box_01 {
+    background-color: #191919;
+    color: white;
+    width: 80%;
+    height: 520px;
+    border: 1px solid #5c5c5c;
+    box-sizing: border-box;
+}
+
+header.boxHeader_01 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+img.icon_01 {
+    width: 65px;
+    height: 65px;
+    margin: 5px;
+    margin-right: 10px;
+    border: 2px solid #5c5c5c;
+    border-radius: 50%;
+}
+
+.box_01 h3 {
+    font-size: 35px;
+}
+
+.box_01 hr {
+    border: 1px solid #5c5c5c;
+}
+
+.box_01 p {
+    margin: 15px;
+    font-size: 18px;
+}
+
+div#deco_bar {
+    display: flex;
+    flex-direction: column;
+}
+
+img.decoration {
+    width: 100px;
+    height: 100px;
+}
+
+p#phrase {
+    display: flex;
+    justify-content: center;
+    margin: 85px;
+    color: white;
+    font-size: 30px;
+}
+
+div#bigbox_02 {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 85px;
+    gap: 30px;
+}
+
+section.box_02 {
+    background: #191919;
+    color: white;
+    width: 39%;
+    height: 375px;
+    border: 1px solid #5c5c5c;
+    box-sizing: border-box;
+}
+
+header.boxHeader_02 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.box_02 h4 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.box_02 hr {
+    border: 1px solid #5c5c5c;
+}
+
+.box_02 p {
+    margin: 10px;
+    font-size: 16px;
+}
+
+div#the_lonely {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#the_lonely hr {
+    border: 2px solid #5c5c5c;
+    width: 85%;
+}
+
+footer {
+    height: 200vw;
+    background-color: #000000;
+}
+
+div#gradient {
+    background: linear-gradient(to bottom, #2c2c2c 0%, #000000 70%);
+    height: 40vw;
+}
+
+div#credit_box {
+    display: flex;
+    align-items: center;
+}
+
+div#box_03 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding-top: 2%;
+    margin-left: 10%;
+    font-size: 24px;
+    color: white;
+}
+
+#box_03 h5 {
+    font-size: 18px;
+}
+
+#box_03 h3 {
+    margin-left: 10px;
+}
+
+div#box_04 {
+    border-left: 4px solid #5c5c5c;
+    width: 25%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+div#credited {
+    margin-left: 10%;
+    padding-left: 3%;
+    font-size: 24px;
+    color: white;
+}
+
+#credited h5 {
+    font-size: 18px;
+}
+
+#credited h3 {
+    margin-left: 10px;
+}
